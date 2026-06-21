@@ -1,0 +1,26 @@
+# Local Python Environment
+.venv/
+__pycache__/
+*.pyc
+.cache      
+.cache/     
+dbt-env/
+.vscode/    
+
+# Local Airflow Files 
+logs/
+plugins/
+airflow.db
+
+# SECRETS AND CREDENTIALS 
+.env
+*.pem
+credentials
+config
+.aws/
+
+# Local dbt artifacts
+target/
+dbt_packages/
+logs/
+profiles.yml
